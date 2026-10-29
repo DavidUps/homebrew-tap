@@ -1,11 +1,11 @@
 cask "bidaide-notificator" do
-  version "0.1.0"
-  sha256 "74db43213832e6478c102863ea8dae0da62751c7e03d10b35acf565d2a53eb05"
+  version "0.2.0"
+  sha256 "71d323f82d255ef188a509e0e0b660b83707402732d5dcf1e47158a6af81dce0"
 
-  url "https://github.com/DavidUps/bidaide-notificator/releases/download/v#{version}/BidaideNotificator-#{version}.zip"
+  url "https://github.com/DavidUps/bidaide/releases/download/v#{version}/BidaideNotificator-#{version}.zip"
   name "Bidaide Notificator"
   desc "Menu bar app, notifications and widget for GitHub pull requests, powered by GitHub CLI"
-  homepage "https://github.com/DavidUps/bidaide-notificator"
+  homepage "https://github.com/DavidUps/bidaide"
 
   livecheck do
     url :url
